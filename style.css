@@ -37,6 +37,7 @@
     font-size: large;
     font-weight: bold;
     background-color: black;
+    position: sticky;
 }
 
 .nav-links a {
@@ -138,9 +139,131 @@
     position: relative;
     width: 80%;
     right: 150px;
+    padding-bottom: 100px;
 }
 
 .video-3{
     position: relative;
     left: 200px;
+}
+
+.hhh-1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-weight: 100;
+    font-family: "Poiret One";
+    padding-bottom: 40px;
+}
+
+.hhh-3{
+    font-weight: lighter;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 0px 30px 70px 70px;
+}
+
+.blogs{
+    color: white;
+    font-weight: lighter;
+}
+
+.button-3{
+    width: 200px;
+    background-color: #e5bf4a;;
+    color: black;
+    border: 1px solid #e5bf4a;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.gridd{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    padding-bottom: 90px;
+}
+
+.bold{
+    color: #e5bf4a;
+}
+
+.bolddd{
+    color: white;
+}
+
+.boldd{
+    color: #e5bf4a;
+    background-color: #000000;
+    border: transparent;
+}
+
+.gridd-1{
+    padding: 0px 10px;
+}
+
+.instagram{
+    text-align: center;
+    background-color: black;
+}
+
+.instagram-1{
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.instagram-2{
+    width: 200px;
+    background-color: black;
+    color: #e5bf4a;
+    border: 1px solid #e5bf4a;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 90px;
+}
+
+.instra{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 0px 70px;
+    grid-gap: 10px;
+    padding-bottom: 100px;
+}
+
+.nav-linkss{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-left: 480px;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    position: sticky;
+    margin-bottom: 10px;
+}
+
+
+.nav-linkss a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-linkss li{
+    margin-top: 30px;
 }
