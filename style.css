@@ -225,7 +225,6 @@
 .button-3 {
     width: 200px;
     background-color: #e5bf4a;
-    ;
     color: black;
     border: 1px solid #e5bf4a;
     font-size: 15px;
@@ -427,4 +426,26 @@
     color: #ffffff;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .grid-apply{
+        flex-wrap: wrap;
+    }
+
+    .container-main{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .grid-item{
+        border: 1px solid #e5bf4a;
+    }
+
+    .border-new{
+        border: 1px solid #e5bf4a;
+    }    
+
+
+} 
 
